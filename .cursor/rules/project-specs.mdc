@@ -1,0 +1,32 @@
+---
+description: Especificações oficiais do app de plano alimentar Herbert/Aline (NOVAMED)
+alwaysApply: true
+---
+
+# App Nutrição — Plano Alimentar
+
+## Fonte oficial
+- Documento: `Documento Escaneado 22.pdf` (NOVAMED Recife)
+- Nutricionista: Rayana Carolina da Silva Cruz
+- Pacientes: Herbert Felipe Emidio da Silva (Plano 1) e Aline de Almeida C (Plano 2)
+- Quantidades, opções "OU" e refeições do PDF são a única fonte de verdade
+- Não alterar porções, não inventar substituições médicas, não "otimizar" a dieta
+
+## Perfis
+- Toggle dinâmico: `herbert` | `aline`
+- Herbert: Café, Almoço (com/sem feijão), Jantar (Opções 1/2/3)
+- Aline: Café, Almoço, Lanche da tarde, Jantar
+
+## Regras de seleção
+- Grupos "Escolher 1" / "OU": seleção exclusiva (radio-like)
+- Itens compostos da mesma opção: entram juntos no cálculo
+- Totais de P/C/G e kcal recalculam em tempo real
+
+## Stack
+- React + TypeScript + Vite
+- Dados em `src/data/` (não hardcode em componentes)
+- Componentes modulares: ProfileToggle, MealSection, FoodOption, MacroSummary
+
+## UI
+- Ícones/ilustrações por alimento ou grupo alimentar
+- Interface limpa, mobile-friendly, legível para uso diário

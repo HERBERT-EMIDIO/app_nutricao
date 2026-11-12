@@ -1,0 +1,17 @@
+---
+description: Regras de dados nutricionais e seleção OU do plano alimentar
+globs: src/data/**/*.{ts,tsx},src/components/**/*.{ts,tsx}
+alwaysApply: false
+---
+
+# Dados nutricionais
+
+- Editar apenas `src/data/foods.ts` e `src/data/plans.ts`
+- Manter `portion` exatamente como no PDF (g, ml, colheres, fatias, unidades)
+- Macros (`protein`, `carbs`, `fat`, `kcal`) referem-se à porção prescrita, não a 100g
+- `selection: 'exclusive'` = escolher 1 no grupo; `selection: 'single'` = item único; `bundle` = itens que entram juntos
+
+# Anti-padrões
+- Não inventar alimentos fora do plano
+- Não arredondar porções para "facilitar"
+- Não misturar quantidades de Herbert e Aline no mesmo item

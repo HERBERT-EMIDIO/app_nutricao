@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.local
+pdf_pages
+_extract_pdf.py
+pdf_extract.txt
+Documento Escaneado 22.pdf
+*.pdf
