@@ -13,12 +13,19 @@ Aplicativo web de montagem de refeições e cálculo de macros, estritamente ali
 - Páginas extraídas para referência visual: `pdf_pages/page1_0.jpg`, `pdf_pages/page2_0.jpg`
 - Quantidades (g, ml, colheres, fatias, unidades) e alternativas **OU** não podem ser alteradas sem nova prescrição
 
+## Metas clínicas (contexto do app)
+- **Herbert:** corredor com volume alto → manter **superávit** (não emagrecer)
+- **Aline:** emagrecimento + caneta emagrecedora → **déficit**, saciedade e alimentação adequada
+
 ## Funcionalidades obrigatórias
 1. Toggle dinâmico Herbert / Aline
 2. Categorias de refeição por perfil (ver abaixo)
 3. Checkboxes / seleção exclusiva para opções OU e “Escolher 1”
-4. Cálculo em tempo real: Proteínas, Carboidratos, Gorduras, kcal
-5. Ícones por alimento/grupo
+4. Bloco **Monte sua alimentação** (proteína + acompanhamentos do plano)
+5. Campo **O que você vai treinar?** + sugestão da IA integrada (só alimentos prescritos)
+6. Cálculo em tempo real: Proteínas, Carboidratos, Gorduras, kcal (plano + montagem)
+7. Totais **não flutuantes** (sem sticky)
+8. Ícones por alimento/grupo
 
 ## Herbert (Plano 1)
 - Café da manhã: Opção A (whey + leite) **OU** Opção B (ovos + mamão + chia)
